@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP 20\n    FiscalYear,\n    AgencyName,\n    TotalPaid\nFROM dbo.NYC_Payroll_Summary\nORDER BY\n    FiscalYear,\n    AgencyName;",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "udacity",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
